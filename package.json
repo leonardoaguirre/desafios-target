@@ -1,0 +1,24 @@
+{
+    "name": "desafios-target",
+    "version": "1.0.0",
+    "description": "Desafios da target sistemas",
+    "main": "index.ts",
+    "dependencies": {
+        "typescript": "^4.5.5"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "ts-node-dev index.ts",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/leonardoaguirre/desafios-target.git"
+    },
+    "author": "Leonardo",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/leonardoaguirre/desafios-target/issues"
+    },
+    "homepage": "https://github.com/leonardoaguirre/desafios-target#readme"
+}
