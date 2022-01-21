@@ -79,5 +79,16 @@ const TOTAL_MENSAL = totalMensal(dados4)
 console.log(`Total mensal : R$${TOTAL_MENSAL}`);
 for (const d of dados4) {
     console.log(`Percentual de representação de ${d.estado} : %${percentualDeRepresentacao(d.valor, TOTAL_MENSAL)}`);
-
 }
+
+//Desafio 5
+let palavra = "Ola tudo bem"
+let palavraInvertida = ""
+for (let index = palavra.length - 1; index >= 0; index--) {
+    const element = palavra[index];
+    palavraInvertida += element
+}
+linha()
+console.log('Desafio 5');
+console.log(palavraInvertida);
+
